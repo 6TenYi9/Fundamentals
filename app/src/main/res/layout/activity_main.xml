@@ -4,28 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#651A26"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/username"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/username"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/cancel"
         app:layout_constraintStart_toStartOf="@+id/ok"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_margin="8dp"/>
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:background="#F8F8F8"/>
 
     <TextView
         android:id="@+id/password"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/password"
         app:layout_constraintTop_toBottomOf="@+id/username"
         app:layout_constraintStart_toStartOf="@+id/ok"
         app:layout_constraintEnd_toEndOf="@+id/cancel"
-        android:layout_margin="8dp"/>
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:background="#F8F8F8"/>
 
     <Button
         android:id="@+id/ok"
@@ -36,7 +41,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.35"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password" />
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        android:backgroundTint="#C6730D"/>
+
     <Button
         android:id="@+id/cancel"
         android:layout_width="wrap_content"
@@ -44,16 +51,17 @@
         android:text="@string/cancelar"
         app:layout_constraintStart_toEndOf="@id/ok"
         app:layout_constraintTop_toTopOf="@+id/ok"
-        android:layout_marginLeft="8dp"/>
+        android:layout_marginLeft="8dp"
+        android:backgroundTint="#C6730D"/>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/dragon"
+        android:layout_margin="8dp"
         android:contentDescription="@string/img"
-        app:layout_constraintEnd_toEndOf="@+id/cancel"
-        app:layout_constraintStart_toStartOf="@+id/ok"
+        android:src="@drawable/dragon"
         app:layout_constraintBottom_toTopOf="@+id/username"
-        android:layout_margin="8dp" />
+        app:layout_constraintEnd_toEndOf="@+id/cancel"
+        app:layout_constraintStart_toStartOf="@+id/ok" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

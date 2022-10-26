@@ -3,5 +3,6 @@
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="go">Go</string>
-    <string name="cancelar">Cancelar</string>
+    <string name="cancelar">Cancel</string>
+    <string name="img">Icon</string>
 </resources>
