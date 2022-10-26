@@ -46,4 +46,14 @@
         app:layout_constraintTop_toTopOf="@+id/ok"
         android:layout_marginLeft="8dp"/>
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dragon"
+        android:contentDescription="@string/img"
+        app:layout_constraintEnd_toEndOf="@+id/cancel"
+        app:layout_constraintStart_toStartOf="@+id/ok"
+        app:layout_constraintBottom_toTopOf="@+id/username"
+        android:layout_margin="8dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
