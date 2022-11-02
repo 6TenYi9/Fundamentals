@@ -75,13 +75,11 @@
 
     <Button
         android:id="@+id/ok"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
         android:text="@string/go"
         app:layout_constraintStart_toStartOf="@id/leftguide"
+        app:layout_constraintEnd_toStartOf="@+id/cancel"
         app:layout_constraintTop_toBottomOf="@+id/password"
-        android:backgroundTint="#EA942A"/>
+        style="@style/confirm" />
 
     <Button
         android:id="@+id/cancel"

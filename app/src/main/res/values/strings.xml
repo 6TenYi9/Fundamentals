@@ -5,4 +5,8 @@
     <string name="go">Go</string>
     <string name="cancelar">Cancel</string>
     <string name="img">Icon</string>
+    <string name="email">Email</string>
+    <string name="password2">Confirm password</string>
+    <string name="confirmar">next</string>
+    <string name="Intpassword">Set Password</string>
 </resources>
