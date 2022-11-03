@@ -87,6 +87,7 @@
         app:layout_constraintStart_toEndOf="@+id/ok"
         app:layout_constraintTop_toBottomOf="@+id/password"
         app:layout_constraintEnd_toEndOf="@+id/rightguide"
+        android:backgroundTint="@color/buttonselector"
         style="@style/cancel" />
 
     <androidx.constraintlayout.widget.Guideline
