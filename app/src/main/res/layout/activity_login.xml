@@ -4,8 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#651A26"
+    android:background="@drawable/gradient"
     tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/girl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitStart" />
 
     <ImageView
         android:layout_width="72dp"

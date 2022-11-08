@@ -2,7 +2,7 @@
     <string name="app_name">Fundamentals</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
-    <string name="go">Go</string>
+    <string name="go">Confirm</string>
     <string name="cancelar">Cancel</string>
     <string name="img">Icon</string>
     <string name="email">Email</string>
