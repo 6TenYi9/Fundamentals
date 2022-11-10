@@ -8,11 +8,11 @@
     tools:context=".LoginActivity"
     tools:ignore="ExtraText">
 
-    <!--<ImageView
-        android:id="@+id/girl"
+    <ImageView
+        android:id="@+id/fondos"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="fitStart" />-->
+        android:scaleType="fitStart" />
 
     <ImageView
         android:id="@+id/girl"
