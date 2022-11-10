@@ -20,4 +20,13 @@
         <item name="android:layout_margin">8dp</item>
         <item name="android:backgroundTint">#EA942A</item>
     </style>
+
+    <style name="botontransp" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#CDAAFF</item>
+        <item name="cornerRadius">4dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="strokeColor">#D8BCFF</item>
+    </style>
 </resources>
