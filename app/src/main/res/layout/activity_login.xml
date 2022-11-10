@@ -5,23 +5,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient"
-    tools:context=".LoginActivity">
+    tools:context=".LoginActivity"
+    tools:ignore="ExtraText">
 
-    <ImageView
+    <!--<ImageView
         android:id="@+id/girl"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="fitStart" />
+        android:scaleType="fitStart" />-->
 
     <ImageView
+        android:id="@+id/girl"
         android:layout_width="72dp"
         android:layout_height="72dp"
         android:layout_margin="24dp"
         android:contentDescription="@string/img"
-        android:src="@drawable/dragon"
+        android:scaleType="fitStart"
         app:layout_constraintBottom_toTopOf="@+id/username"
         app:layout_constraintEnd_toEndOf="@+id/cancel"
-        app:layout_constraintStart_toStartOf="@+id/ok" />
+        app:layout_constraintStart_toStartOf="@+id/ok"/>
+        <!--android:src="@drawable/dragon"-->
+
 
     <!--<TextView
         android:id="@+id/username"
